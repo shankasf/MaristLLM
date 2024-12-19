@@ -1,0 +1,3 @@
+0 ./data/poll_processed.txt
+1 ./data/poll2_processed.txt
+2 ./data/Ropper1_processed.txt
