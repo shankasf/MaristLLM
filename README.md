@@ -36,7 +36,7 @@ This project implements an **end-to-end RAG pipeline** that supports:
 - **Chunker**: Custom sliding window, sentence-aware chunking.
 - **FAISS Vector Store**: Fast nearest neighbor search.
 - **BAAI Embedding Model**: Generates high-quality vector embeddings.
-- **Granite 3.2 Model**: Locally hosted IBM LLM for text generation.
+- **Deepseek r-1 671-B**: Locally hosted Deepseek r-1 671-B LLM for text generation.
 - **LangChain**: Chains retrieval and generation into a full RAG pipeline.
 - **Docstore**: Stores meta-information of all document chunks.
 
@@ -64,7 +64,7 @@ rag_system/
 │   ├── index.faiss
 │   ├── docstore.pkl
 │   └── data_hash.txt
-├── granite_model/                 # IBM Granite model cache
+├── Deepseek r-1 671B_model/                 # Deepseek r-1 671-B model cache
 ├── document_mapping.txt           # Optional for human-readable doc info
 ├── main.py
 └── README.md
