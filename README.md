@@ -1,4 +1,4 @@
-# Advanced Local RAG Pipeline with Sentence Transformers, FAISS & IBM Granite3.2 LLM
+# Advanced Local RAG Pipeline with Sentence Transformers, FAISS & Deepseek r-1 671-B LLM
 
 > Fully local Retrieval-Augmented Generation system for document-based Q&A.
 
@@ -11,7 +11,7 @@ This project implements an **end-to-end RAG pipeline** that supports:
 - Sentence-level chunking.
 - FAISS vector store for efficient similarity search.
 - BAAI `bge-m3` embedding model.
-- IBM `granite-3.2-8b-instruct` LLM using Hugging Face.
+- Deepseek r-1 LLM using Hugging Face.
 - Local model caching and loading.
 - LangChain integration for chaining retrieval and generation.
 
@@ -23,7 +23,7 @@ This project implements an **end-to-end RAG pipeline** that supports:
 - Sentence-wise tokenized chunking with sliding window.
 - Embeddings generation with `SentenceTransformer` (BAAI/bge-m3).
 - Vector database with FAISS.
-- Query answering using IBM Granite 3.2 model.
+- Query answering using Deepseek r-1 671-B model.
 - Caching and reloading of vector database (avoids recomputation).
 - Hash-based change detection.
 - Supports CUDA acceleration (tested on CUDA:1).
@@ -85,7 +85,7 @@ rag_system/
 
 ## 🟢 How to Run
 
-1. Download IBM `granite-3.2-8b-instruct` from Hugging Face.
+1. Download Deepseek r-1 671-B from Hugging Face.
 2. Ensure CUDA is available for GPU acceleration.
 3. Install dependencies:
    ```bash
